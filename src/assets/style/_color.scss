@@ -1,0 +1,23 @@
+html {
+  // background-color: #232323;
+  --nav-shadow: #232323;
+  --btn-bg: #586572;
+  --btn-font: white;
+  --toggle-bg: #586572;
+  --table-font: #2c3e50;
+  --table-border: black;
+  --input-font: #2c3e50;
+  --computed-font: #2c3e50;
+}
+
+html[data-theme="dark"] {
+  background-color: #232323;
+  --nav-shadow: white;
+  --btn-bg: #E3E3E3;
+  --btn-font: #2c3e50;
+  --toggle-bg: #232323;
+  --table-font: white;
+  --table-border: white;
+  --input-font: white;
+  --computed-font: white;
+}
